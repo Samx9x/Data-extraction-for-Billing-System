@@ -21,14 +21,9 @@ This project contains scripts to scrape retail product data from various grocery
 1. Clone the repository
 2. Install the required libraries:
 pip install -r requirements.txt
+
 Usage
 Run the individual scraper scripts for each platform:
-
-python bigbasket_scraper.py
-python flipkart_scraper.py
-python instamart_scraper.py
-python amazon_scraper.py
-
 
 Error Handling
 Logs are maintained in bigbasket_scraper.log, flipkart_scraper.log, instamart_scraper.log, and amazon_scraper.log files for tracking errors and script execution.
